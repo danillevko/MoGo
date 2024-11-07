@@ -1,0 +1,67 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    gap: 55px;
+    margin-left: auto;
+}
+
+.container {
+}
+.header {
+}
+.title {
+}
+.header-menu {
+}
+.header-item {
+}
+.header-link {
+}
+.main {
+}
+.main-section {
+}
+.main-name {
+}
+.main-title {
+}
+.main-menu {
+}
+.main-item {
+}
+.main-icon {
+}
+.category {
+}
+.category-description {
+}
+.team-section {
+}
+.team-description {
+}
+.team-list {
+}
+.team-item {
+}
+.team-member {
+}
+.member-position {
+}
+.footer {
+}
+.footer-author {
+}
+.footer-email {
+}
+.button {
+}
