@@ -16,52 +16,107 @@
 }
 
 .container {
+    outline: 1px solid darkred;
 }
 .header {
+    outline: 1px solid brown;
 }
 .title {
+    outline: 1px solid blue;
 }
 .header-menu {
+    outline: 1px solid darkblue;
+    list-style: none;
 }
 .header-item {
+    outline: 1px solid green;
 }
 .header-link {
+    outline: 1px solid darkgreen;
 }
 .main {
+    outline: 1px solid pink;
 }
 .main-section {
+    outline: 1px solid purple;
+    margin: 0 auto;
+}
+.main-wrapper{
+    margin: 0 auto;
 }
 .main-name {
+    outline: 1px solid black;
+    text-align: center;
 }
 .main-title {
+    outline: 1px solid gray;
+    text-align: center;
 }
 .main-menu {
+    outline: 1px solid blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding-left: 0;
+    width: 1040px;
+    margin: 0 auto;
 }
 .main-item {
+    outline: 1px solid yellow;
+    width: 300px;
+    list-style: none;
 }
 .main-icon {
+    outline: 1px solid yellowgreen;
 }
 .category {
+    outline: 1px solid royalblue;
 }
 .category-description {
+    outline: 1px solid teal;
 }
 .team-section {
+    outline: 1px solid violet;
 }
 .team-description {
+    outline: 1px solid darkslategray;
 }
 .team-list {
+    outline: 1px solid hotpink;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    width: 380px;
+    padding-left: 0;
 }
 .team-item {
+    outline: 1px solid mediumspringgreen;
 }
 .team-member {
+    outline: 1px solid midnightblue;
 }
 .member-position {
+    outline: 1px solid chocolate;
 }
 .footer {
+    outline: 1px solid orange;
+    display: flex;
 }
 .footer-author {
+    outline: 1px solid orangered;
 }
 .footer-email {
+    outline: 1px solid peru;
 }
 .button {
+    outline: 1px solid fuchsia;
+}
+.input-btn-wrapper{
+    display: flex;
+    margin-left: auto;
+    margin-left: 637px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
 }
