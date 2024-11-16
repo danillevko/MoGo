@@ -10,7 +10,7 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .header {
@@ -25,15 +25,16 @@
 }
 
 .container {
-    outline: 1px solid darkred;
+    /* outline: 1px solid darkred; */
 }
 
 .header {
-    outline: 1px solid brown;
+    /* outline: 1px solid brown; */
+    margin-bottom: 80px;
 }
 
 .title {
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     font-family: "Montserrat", serif;
     font-weight: 700;
     font-style: normal;
@@ -43,26 +44,27 @@
 }
 
 .header-menu {
-    outline: 1px solid darkblue;
+    /* outline: 1px solid darkblue; */
     list-style: none;
+    text-decoration: none;
 }
 
 .header-item {
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
     font-family: "Montserrat", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
-
 }
 
 
 .header-link {
-    outline: 1px solid darkgreen;
+    /* outline: 1px solid darkgreen; */
     font-family: "Montserrat", serif;
     font-weight: 400;
     font-style: normal;
     color: var(--main-color);
+    text-decoration: none;
 }
 
 .header-link-active {
@@ -70,11 +72,11 @@
 }
 
 .main {
-    outline: 1px solid pink;
+    /* outline: 1px solid pink; */
 }
 
 .main-section {
-    outline: 1px solid purple;
+    /* outline: 1px solid purple; */
     margin: 0 auto;
 }
 
@@ -83,7 +85,7 @@
 }
 
 .main-name {
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     text-align: center;
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
@@ -93,17 +95,18 @@
 }
 
 .main-title {
-    outline: 1px solid gray;
+    /* outline: 1px solid gray; */
     text-align: center;
     font-family: "Montserrat", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
     color: var(--title-color);
+    margin-bottom: 110px;
 }
 
 .main-menu {
-    outline: 1px solid blueviolet;
+    /* outline: 1px solid blueviolet; */
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
@@ -113,27 +116,32 @@
 }
 
 .main-item {
-    outline: 1px solid yellow;
+    /* outline: 1px solid yellow; */
     width: 300px;
     list-style: none;
+    display: flex;
+    gap: 18px;
 }
 
 .main-icon {
-    outline: 1px solid yellowgreen;
+    height: 37px;
+    width: 37px;
+    /* outline: 1px solid yellowgreen; */
 }
 
 .category {
-    outline: 1px solid royalblue;
+    /* outline: 1px solid royalblue; */
     font-family: "Montserrat", serif;
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
     font-size: 14px;
     color: var(--title-color);
+    margin-top: 0;
 }
 
 .category-description {
-    outline: 1px solid teal;
+    /* outline: 1px solid teal; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -142,21 +150,24 @@
 }
 
 .team-section {
-    outline: 1px solid violet;
+    /* outline: 1px solid violet; */
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 
 .team-description {
-    outline: 1px solid darkslategray;
+    /* outline: 1px solid darkslategray; */
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
     color: var(--paragraph-color);
+    margin-bottom: 27px;
 }
 
 .team-list {
-    outline: 1px solid hotpink;
+    /* outline: 1px solid hotpink; */
     display: flex;
     list-style: none;
     gap: 30px;
@@ -165,11 +176,11 @@
 }
 
 .team-item {
-    outline: 1px solid mediumspringgreen;
+    /* outline: 1px solid mediumspringgreen; */
 }
 
 .team-member {
-    outline: 1px solid midnightblue;
+    /* outline: 1px solid midnightblue; */
     font-family: "Montserrat", serif;
     font-weight: 400;
     font-style: normal;
@@ -179,7 +190,7 @@
 }
 
 .member-position {
-    outline: 1px solid chocolate;
+    /* outline: 1px solid chocolate; */
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -190,12 +201,13 @@
 }
 
 .footer {
-    outline: 1px solid orange;
+    /* outline: 1px solid orange; */
     display: flex;
+    margin-top: 12px;
 }
 
 .footer-author {
-    outline: 1px solid orangered;
+    /* outline: 1px solid orangered; */
     font-family: "Montserrat", serif;
     font-weight: 400;
     font-style: normal;
@@ -204,21 +216,22 @@
     width: 314px
 }
 
-.author-name{
+.author-name {
     color: var(--active-color);
 }
 
 .footer-email {
-    outline: 1px solid peru;
+    /* outline: 1px solid peru; */
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 14px;
     color: var(--paragraph-color);
+    padding-left: 10px;
 }
 
 .button {
-    outline: 1px solid fuchsia;
+    /* outline: 1px solid fuchsia; */
     font-family: "Montserrat", serif;
     font-weight: 700;
     font-style: normal;
