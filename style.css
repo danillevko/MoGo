@@ -69,6 +69,18 @@
 
 .header-link-active {
     color: var(--active-color);
+    position: relative;
+}
+
+.header-link-active::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: var(--active-color);
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    right: 1px;
 }
 
 .main {
@@ -103,6 +115,18 @@
     font-size: 30px;
     color: var(--title-color);
     margin-bottom: 110px;
+    position: relative;
+}
+
+.main-title::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: var(--active-color);
+    display: block;
+    position: absolute;
+    bottom: -36px;
+    left: 571px;
 }
 
 .main-menu {
