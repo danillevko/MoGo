@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./model.js">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -45,7 +46,10 @@
                 <div class="main-wrapper">
                     <ul class="main-menu">
                         <li class="main-item">
-                            <img src="./images/clock.png" alt="clock" class="main-icon">
+                            <!-- <img src="./images/symbol-defs.s" alt="clock" class="main-icon"> -->
+                            <svg class="main-icon">
+                                <use href="./images/symbol-defs.svg#icon-alarm-1"></use>
+                            </svg>
                             <div>
                                 <h4 class="category">photography</h4>
                                 <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -54,7 +58,10 @@
                             </div>
                         </li>
                         <li class="main-item">
-                            <img src="./images/bar graph.png" alt="bar" class="main-icon">
+                            <!-- <img src="./images/bar graph.png" alt="bar" class="main-icon"> -->
+                            <svg class="main-icon">
+                                <use href="./images/symbol-defs.svg#icon-bar-graph-1"></use>
+                            </svg>
                             <div>
                                 <h4 class="category">photography</h4>
                                 <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -63,7 +70,10 @@
                             </div>
                         </li>
                         <li class="main-item">
-                            <img src="./images/monitor.png" alt="monitor" class="main-icon">
+                            <!-- <img src="./images/monitor.png" alt="monitor" class="main-icon"> -->
+                            <svg class="main-icon">
+                                <use href="./images/symbol-defs.svg#icon-display-1"></use>
+                            </svg>
                             <div>
                                 <h4 class="category">photography</h4>
                                 <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -72,7 +82,10 @@
                             </div>
                         </li>
                         <li class="main-item">
-                            <img src="./images/paper.png" alt="paper" class="main-icon">
+                            <!-- <img src="./images/paper.png" alt="paper" class="main-icon"> -->
+                            <svg class="main-icon">
+                                <use href="./images/symbol-defs.svg#icon-paper-1"></use>
+                            </svg>
                             <div>
                                 <h4 class="category">photography</h4>
                                 <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -81,7 +94,10 @@
                             </div>
                         </li>
                         <li class="main-item">
-                            <img src="./images/house.png" alt="house" class="main-icon">
+                            <!-- <img src="./images/house.png" alt="house" class="main-icon"> -->
+                            <svg class="main-icon">
+                                <use href="./images/symbol-defs.svg#icon-home-1"></use>
+                            </svg>
                             <div>
                                 <h4 class="category">photography</h4>
                                 <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -90,7 +106,10 @@
                             </div>
                         </li>
                         <li class="main-item">
-                            <img src="./images/phone and target.png" alt="phone and target" class="main-icon">
+                            <!-- <img src="./images/phone and target.png" alt="phone and target" class="main-icon"> -->
+                            <svg class="main-icon">
+                                <use href="./images/symbol-defs.svg#icon-digital-marketing-1"></use>
+                            </svg>
                             <div>
                                 <h4 class="category">photography</h4>
                                 <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -99,6 +118,21 @@
                             </div>
                         </li class="main-item">
                     </ul>
+                    <div class="btn-wrapper">
+                        <button class="btn-open" data-modal-open>Reserve</button>
+                    </div>
+                    <div class="backdrop is-hidden" data-modal>
+                        <div class="modal">
+                            <div class="input-wrapper">
+                                <h4 class="modal-name">Name</h4><input type="text">
+                                <h4 class="modal-phone">Phone Number</h4><input type="tel">
+                                <h4 class="modal-time">Time</h4><input type="time">
+                            </div>
+                            <div class="btn-close-wrapper">
+                                <button class="btn" data-modal-close>Reserve</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
@@ -142,6 +176,7 @@
             </div>
         </footer>
     </div>
+    <script src="modal.js"></script>
 </body>
 
 </html>
